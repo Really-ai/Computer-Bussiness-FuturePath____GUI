@@ -1,0 +1,9 @@
+var months=12*3,avera=1800,pc=2,cafinal=26000,monthname='June',year=2017,boxprice=5000,pcprice=20000,waspclastbought=true;
+var months=12*3,avera=1500,pc=4,cafinal=9100,monthname='September',year=2017,boxprice=5000,pcprice=20000,waspclastbought=false;
+var months=12*3,avera=1500,pc=4,cafinal=14900,monthname='September',year=2017,boxprice=5000,pcprice=20000,waspclastbought=false;
+var months=12*3,avera=1500,pc=4,cafinal=21700,monthname='September',year=2017,boxprice=5000,pcprice=20000,waspclastbought=false;
+var months=12*3,avera=1500,pc=4,cafinal=22000,monthname='October',year=2017,boxprice=5000,pcprice=20000,waspclastbought=false;
+var months=12*3,avera=1500,pc=4,cafinal=8800,monthname='October',year=2017,boxprice=5000,pcprice=20000,waspclastbought=true;
+var months=12*3,avera=1500,pc=4,cafinal=11300,monthname='October',year=2017,boxprice=5000,pcprice=20000,waspclastbought=true;
+var months=12*3,avera=1000,pc=5,cafinal=0,monthname='November',year=2017,boxprice=5000,pcprice=20000,waspclastbought=true;
+var months=12*3,avera=1400,pc=5,cafinal=8700,monthname='November',year=2017,boxprice=5000,pcprice=20000,waspclastbought=true;

@@ -1,0 +1,1 @@
+var aaaa=new Array(); for (var aaa=0; aaa<37; aaa++){ aaaa[aaa]=new Array(); aaaa[aaa][0]=pcarr[aaa];aaaa[aaa][1]=completepcarr[aaa];}aaaa

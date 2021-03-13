@@ -1,0 +1,199 @@
+body{overflow:scroll;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;}
+th,td{
+            padding-left: 30px;text-align:right;
+        }
+.top{
+    background-color: rgb(66, 133, 244);
+    height: 20%;    transition: height .75s;
+    position: relative;
+}
+.asd{box-shadow:  0px 2px 0px 0px 5px #888888;}
+
+table{
+    width: 100%;}
+
+.first{padding-top: 1px; width: 50px;}
+th{padding-top: 2px;padding-left: 4px; min-width: 50px;}
+.wdk{z-index: 10;}
+.display{
+    /*transition: visibility 1s, opacity 0.5s linear;*/
+        transition: all 1s ease-in-out;
+    min-height: 20px;
+    max-height: 244px;
+    overflow-y: scroll;
+    background-color: #F7F7F7;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    opacity: 0;
+    left: 25%;
+    width: 50%;    
+    -webkit-transition: width .75s;
+    box-shadow: 2px 2px 5px #888888;
+        visibility: hidden;
+}
+.submit{
+       background-color: rgb(66, 133, 244);    color: white; width: 60%
+            ;border-radius: 3px;
+width:20%;float:right;
+margin-top: 10%;
+margin-bottom: 7%;}
+.boxe{
+    padding-left:30px;
+    margin-top:30px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+#Reload{background-color: rebeccapurple;    color: white; width: 80px;;border-radius: 3px;position: fixed;z-index: 11;}
+input[type=text],  select {
+
+    height: 2em;
+    box-shadow: 0 1.5px 0 #a9a9a9;
+    width: 40%;
+float:right;
+position:relative;
+    right:15%;
+    border: 2px groove transparent;
+    padding: 0px 10px;
+    font-size: 1em;
+    color: rgb(0,0,0);}
+ input {
+z-index: 1;
+    height: 2em;
+    box-shadow: 0 1.5px 0 #a9a9a9;
+    width: 40%;
+float:right;
+    position:relative;
+    right:15%;
+    border: 2px groove transparent;
+    padding: 0px 10px;
+    font-size: 1em;
+    color: rgb(0,0,0);}
+
+input:hover{box-shadow: 0 1.5px 0 rgb(66, 133, 244);}
+
+   /* padding: 1px 0px;*/
+
+td input{
+    width: 100%;
+}
+.head{
+    cursor: default;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 5px #888888;
+}
+.tit{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.5);
+    height: inherit;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0px;
+    /*left = .5 - width/2*/
+}
+.bar{ position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    visibility: hidden;
+    background-color: rgb(66, 133, 244);}
+
+form{visibility: hidden;
+    position:relative;}
+.bot{
+    position: relative;
+    min-height: 80%;
+        background-color: rgb(232, 240, 254);
+}
+.form{opacity: 0;position:relative;}
+.formbod{
+    height: 100%;
+    background-color: rgb(232, 240, 254);
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    left: 25%;
+    width: 50%;    transition: all .75s;
+    box-shadow: 2px 2px 5px #888888;
+}
+.login{
+    min-height: 20px;
+    background-color: #F7F7F7;
+    position: absolute;
+    bottom: 37%;
+    background-color: white;
+    left: 25%;
+    width: 50%;    transition: width .75s;
+    box-shadow: 2px 2px 5px #888888;
+    visibility:hidden;
+    /* Is used to set transition on everything.*/
+    transition: all 1s ease-in-out;
+}
+.transitionlogin{
+    bottom: 50px;
+}
+.blue{position:absolute;color:rgb(66, 133, 244);}
+.show{transition: all .25s ease-in-out;visibility: visible;}
+#register{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    background-color: rgb(66, 133, 244);
+    color: white;
+    height:33px;
+    width: 88px;
+    border-radius: 3px;}
+
+#status{
+    margin-bottom: 80px;
+}
+.a{width: 25%;left:30%;}
+.b{width: 15%;left:55%;}
+
+#loginp{position:absolute;
+        top: -15px;
+    font-size: 30px;
+        left:18px;}
+
+#input-ema{
+    margin-top: 70px 
+}
+#input-pwd{
+    margin-bottom: 50px
+}
+
+.tabledata{opacity: 0;
+position:absolute;
+top:0%;width:100%;}
+
+.showopac{opacity:1;}
+.opac{visibility:hidden;}
+.haha{background-color: red;}
+
+table{
+    width: 100%;}
+
+.modify{
+    width: 200px;
+}
+
+tr td .edit{
+    display: none;
+}
+tr.edit td .edit{
+    display: initial;
+}
+tr.edit td .noedit{
+    display: none;
+}
+button{
+    margin-left: 5px;
+}

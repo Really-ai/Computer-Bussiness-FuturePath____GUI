@@ -1,0 +1,87 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/scroll.css">
+</head>
+<body>
+    <div class="top" onclick="">
+        <div class="display">
+            <table>
+            <tr><th class="first">#</th><th class="rest">E-Mail</th><th class="rest">Password</th></tr>
+           </table>
+        </div>
+        
+        
+        
+        <div class="console">
+        <div class="head">
+            <div class="tit a blue" alt="a"  onclick="transformtoinput()">BIO - DATA<div class="bar show" id="a"></div>
+            </div>
+            <div class="tit b" alt="b" onclick="transformtotable();fill()">TABLE OUTPUT<div class="bar" id="b"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="bot">
+        <div class="formbod">
+            <!-- Is used to prevent creation of additional page-->
+            <div class="form showopac">
+            
+                
+                <iframe src="#" name="dummy" width="0px" height="0px" style="display:none;"></iframe>
+                
+                <form id="loginform" action="#" method="get" target="dummy" class="show" onsubmit="very()">
+                    <div class="boxe">Position Desired<input id="pos" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Date<input id="dat" type="date" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Name<input id="nam" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Gender<select id="gen">
+				        <option>Male</option>
+				        <option>Female</option>
+				        <option>Something Else</option>
+                        <option disabled selected></option>
+                                                </select></div>
+                    <div class="boxe">City Address<input id="cit" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Provincial Address<input id="pro" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Telephone Number<input id="tel" type="number" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Cellphone Number<input id="cel" type="number" onfocus="this.value='';"  ></div>
+                    <div class="boxe">E-mail Address<input id="ema" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Date of Birth<input id="dab" type="date" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Place of Birth<input id="pla" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Civil Status<select id="civ">
+				        <option>Single</option>
+				        <option>In a relationship</option>
+				        <option>Engaged</option>
+                        <option>Married</option>
+                        <option>It's complicated</option>
+                        <option>In an open relationship</option>
+                        <option>Widowed</option>
+                        <option>Separated</option>
+                        <option>Divorced</option>
+                        <option>In a civil union</option>
+                        <option>In a domestic partneship</option>
+                        <option disabled selected></option>
+                        </select></div>
+                    <div class="boxe">Citizenship<input id="czp" type="text" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Height (in meters)<input id="hei" type="number" onfocus="this.value='';"  ></div>
+                    <div class="boxe">Weight (in kilograms)<input id="wei" type="number" onfocus="this.value='';"  ></div>
+			<input id="login" class="submit" type="submit" value="Upload">
+            </form>
+            
+            </div>
+            <div class="tabledata ">
+            <table>
+                <tr><th>Month after</th><th>Month Name</th><th>Year</th><th>Initial Capital</th><th>Number Pc</th><th>Box</th><th>Pc</th><th>Final Capital</th><th>Monthly Average</th></tr>
+           </table>
+        </div>
+            
+            
+            </div>
+        
+            
+    </div>
+</body>
+<script src="../js/jquery.min.js">
+</script>
+<script src="../js/main.js">
+</script>
+<script src="../js/scripts.js">
+</script>
